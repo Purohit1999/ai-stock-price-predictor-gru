@@ -20,7 +20,6 @@ It analyzes **10 years of historical stock data** (Open, High, Low, Close, Volum
 
 ---
 
-```markdown
 ## 📂 Project Structure
 ```
 
@@ -32,7 +31,7 @@ ai-stock-price-predictor-gru/
 ├── README.md                     # Project documentation
 └── .gitignore
 
-```
+````
 
 ---
 
@@ -83,17 +82,18 @@ ticker = "AAPL"
 ## 📊 Results
 
 ### Actual vs Predicted (Close Price)
+
 ![Close Price Prediction](https://github.com/Purohit1999/ai-stock-price-predictor-gru/blob/main/GRU/imgs/close_price_prediction.png?raw=true)
 
-
 ### Example: Last 5 Days (Actual vs Predicted)
-| Actual_Open | Pred_Open | Actual_Close | Pred_Close |
-|-------------|-----------|--------------|------------|
-| 226.17      | 211.87    | 227.76       | 216.38     |
-| 226.47      | 211.30    | 227.16       | 215.71     |
-| 226.87      | 211.24    | 229.31       | 215.59     |
-| 228.61      | 211.28    | 230.49       | 215.34     |
-| 230.82      | 212.01    | 232.56       | 215.99     |
+
+| Actual\_Open | Pred\_Open | Actual\_Close | Pred\_Close |
+| ------------ | ---------- | ------------- | ----------- |
+| 226.17       | 211.87     | 227.76        | 216.38      |
+| 226.47       | 211.30     | 227.16        | 215.71      |
+| 226.87       | 211.24     | 229.31        | 215.59      |
+| 228.61       | 211.28     | 230.49        | 215.34      |
+| 230.82       | 212.01     | 232.56        | 215.99      |
 
 ---
 
@@ -140,8 +140,7 @@ model = keras.models.load_model("models/gru_stock_model.keras")
   ```python
   model = keras.models.load_model("models/gru_stock_model.keras", compile=False)
   ```
-* Model files (`.keras`, `.h5`) are ignored in `.gitignore`.
-  Use **Git LFS** if you want to version them.
+* Model files (`.keras`, `.h5`) are ignored in `.gitignore`. Use **Git LFS** if you want to version them.
 
 ---
 
@@ -154,5 +153,5 @@ This project is licensed under the MIT License.
 👨‍💻 **Author**: [Purohit1999](https://github.com/Purohit1999)
 📅 Year: 2025
 
-
+````
 
