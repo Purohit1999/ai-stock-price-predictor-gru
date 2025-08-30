@@ -88,6 +88,7 @@ ticker = "AAPL"
 ### Actual vs Predicted (Close Price)
 ![Close Price Prediction](GRU/imgs/close_price_prediction.png)
 
+
 ### Example: Last 5 Days (Actual vs Predicted)
 | Actual_Open | Pred_Open | Actual_Close | Pred_Close |
 |-------------|-----------|--------------|------------|
