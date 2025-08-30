@@ -20,18 +20,34 @@ It analyzes **10 years of historical stock data** (Open, High, Low, Close, Volum
 
 ---
 
+Yes, I see the problem 👀 — in GitHub your **Project Structure** section is being shown as plain text instead of a formatted tree.
+That happens because Markdown needs **code block formatting** with triple backticks (\`\`\`) around your folder tree.
+
+---
+
+### ✅ Fix
+
+Update your `README.md` section from this (broken):
+
+```markdown
+ai-stock-price-predictor-gru/ |── notebooks/ | └── predict_stock.ipynb # Main Jupyter Notebook |── models/ # Saved GRU models (.keras /.h5) |── requirements.txt # Dependencies |── README.md # Project documentation |── .gitignore
+```
+
+to this (correct):
+
+```markdown
 ## 📂 Project Structure
 ```
 
 ai-stock-price-predictor-gru/
-│── notebooks/
-│   └── predict\_stock.ipynb   # Main Jupyter Notebook
-│── models/                   # Saved GRU models (.keras / .h5)
-│── requirements.txt          # Dependencies
-│── README.md                 # Project documentation
-│── .gitignore
+├── notebooks/
+│   └── predict\_stock.ipynb       # Main Jupyter Notebook
+├── models/                       # Saved GRU models (.keras / .h5)
+├── requirements.txt              # Dependencies
+├── README.md                     # Project documentation
+└── .gitignore
 
-````
+```
 
 ---
 
