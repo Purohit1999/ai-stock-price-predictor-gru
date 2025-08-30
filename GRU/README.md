@@ -25,10 +25,10 @@ It analyzes **10 years of historical stock data** (Open, High, Low, Close, Volum
 
 ai-stock-price-predictor-gru/
 ├── notebooks/
-│   └── predict\_stock.ipynb       # Main Jupyter Notebook
-├── models/                       # Saved GRU models (.keras / .h5)
-├── requirements.txt              # Dependencies
-├── README.md                     # Project documentation
+│ └── predict_stock.ipynb # Main Jupyter Notebook
+├── models/ # Saved GRU models (.keras / .h5)
+├── requirements.txt # Dependencies
+├── README.md # Project documentation
 └── .gitignore
 
 ````
