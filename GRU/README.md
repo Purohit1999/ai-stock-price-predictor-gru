@@ -20,11 +20,6 @@ It analyzes **10 years of historical stock data** (Open, High, Low, Close, Volum
 
 ---
 
-Got it ✅ — let me give you the **ready-to-paste markdown** so your **Project Structure** will look perfect in GitHub (formatted, visible, and copyable).
-
-Here’s the correct block:
-
-```markdown
 ## 📂 Project Structure
 
 ```
