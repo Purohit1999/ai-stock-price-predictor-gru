@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.ipynb_checkpoints/
+
+# Envs
+env/
+venv/
+.genai_env/
+genai_env/
+.venv/
+
+# Data / models / outputs
+data/
+*.h5
+*.keras
+*.ckpt
+*.tfrecord
+*.csv
+*.parquet
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

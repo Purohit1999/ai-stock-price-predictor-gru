@@ -1,0 +1,16 @@
+numpy
+tensorflow
+nltk
+pandas
+matplotlib
+scikit-learn
+torch
+transformers
+jupyter
+numpy
+
+#Project
+tensorflow
+yfinance
+
+
