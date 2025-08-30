@@ -82,7 +82,7 @@ ticker = "AAPL"
 ## 📊 Results
 
 ### Actual vs Predicted (Close Price)
-![Close Price Prediction](GRU/imgs/close_price_prediction.png)
+![Close Price Prediction](https://github.com/Purohit1999/ai-stock-price-predictor-gru/blob/main/GRU/imgs/close_price_prediction.png?raw=true)
 
 
 ### Example: Last 5 Days (Actual vs Predicted)
