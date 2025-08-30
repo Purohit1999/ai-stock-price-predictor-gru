@@ -1,8 +1,4 @@
-Awesome 🎉 Let’s create a **professional README.md** for your repo. This will make your project look polished and clear for others (and for recruiters 👀).
 
-Here’s a ready-to-use template for your `README.md`:
-
----
 
 ```markdown
 # 📈 AI Stock Price Predictor (GRU)
